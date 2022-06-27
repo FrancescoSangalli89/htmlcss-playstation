@@ -16,8 +16,16 @@
     background-color: #161C3B;
 }
 
+.footer-btm {
+    background-color: #00439C;
+}
+
 @media screen and (max-width: 578px) {
-    .playstation-plus-img {
+    
+    .playstation-plus-img, 
+    .playstation-now-img, 
+    #playstation-5 .text {
         display: none;
     }
+
 }
