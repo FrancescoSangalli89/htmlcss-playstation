@@ -1,4 +1,23 @@
-#jumbotron {
+.jumbotron-top, 
+.new-releases-top {
     background-color: aqua;
     height: 300px;
+}
+
+#new-releases {
+    background-color: #1F1F1F;
+}
+
+#playstation-plus {
+    background-color: #BEBCBB;
+}
+
+#playstation-now {
+    background-color: #161C3B;
+}
+
+@media screen and (max-width: 578px) {
+    .playstation-plus-img {
+        display: none;
+    }
 }
