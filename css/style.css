@@ -6,8 +6,16 @@ main {
     margin-top: 108px;
 }
 
+#jumbotron {
+    margin-bottom: 120px;
+}
+
 .ms_jumbotron_top {
     background-image: url(../img/jumbo-bg.png);
+}
+
+.ms_jumbotron_top, 
+.ms_new_releases_top {
     background-size: cover;
     background-position: center;
     height: 550px;
@@ -17,14 +25,44 @@ main {
     background-color: #CE3C10;
 }
 
+.ms_btn_gray {
+    background-color: #D9DADC;
+    color: #003EE7;
+}
+
+.ms_btn_gray_black {
+    background-color: #F5F5F5;
+}
+
 .ms_jumbotron_btm img.ms_active {
     outline: solid 2px #0070D1;
     outline-offset: 5px;
     inline
 }
 
+.text_img_container {
+    margin-top: 100px;
+}
+
+.sub-title {
+    color: #727272;
+}
+
+.ms_card {
+    padding-bottom: 50px;
+    
+}
+
+.ms_card:hover {
+    border-bottom: #0070D1 solid 2px;
+}
+
 #new-releases {
     background-color: #1F1F1F;
+}
+
+.ms_new_releases_top {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 #playstation-plus {
@@ -39,10 +77,22 @@ main {
     background-color: #00439C;
 }
 
+.ms_footer_btm .sie-logo {
+    max-width: 150px;
+}
+
+
 @media screen and (max-width: 578px) {
     
     .playstation-plus-img, 
-    .playstation-now-img, 
+    .playstation-now-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
     #playstation-5 .text {
         display: none;
     }
