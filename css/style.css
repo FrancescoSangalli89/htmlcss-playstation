@@ -1,7 +1,26 @@
-.jumbotron-top, 
-.new-releases-top {
-    background-color: aqua;
-    height: 300px;
+header .ms_header_top img {
+ max-width: 80px;
+}
+
+main {
+    margin-top: 108px;
+}
+
+.ms_jumbotron_top {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.ms_btn_red {
+    background-color: #CE3C10;
+}
+
+.ms_jumbotron_btm img.ms_active {
+    outline: solid 2px #0070D1;
+    outline-offset: 5px;
+    inline
 }
 
 #new-releases {
@@ -16,7 +35,7 @@
     background-color: #161C3B;
 }
 
-.footer-btm {
+.ms_footer_btm {
     background-color: #00439C;
 }
 
