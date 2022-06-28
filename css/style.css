@@ -1,5 +1,80 @@
+/* button */
+
+.ms_btn {
+    display: inline-block;
+    padding: 0.35rem 0.4rem;
+    text-decoration: none;
+}
+
+.ms_btn_dark {
+    background-color: #373636;
+    color: #fff;
+    border: 2px solid #373636;
+    outline: 2px solid #373636;
+}
+
+.ms_btn_dark:hover {
+    border: 2px solid #fff;
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.ms_btn_red {
+    background-color: #CE3C10;
+    color: #fff;
+    border: 2px solid #CE3C10;
+    outline: 2px solid #CE3C10;
+}
+
+.ms_btn_red:hover {
+    border: 2px solid rgba(0, 0, 0, 1);
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.ms_btn_blue {
+    background-color: #0070D1;
+    color: #fff;
+    border: 2px solid #0070D1;
+    outline: 2px solid #0070D1;
+}
+
+.ms_btn_blue:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.ms_btn_gray {
+    background-color: #D9DADC;
+    color: #003EE7;
+    border: 2px solid #D9DADC;
+    outline: 2px solid #D9DADC;
+}
+
+.ms_btn_gray:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    transition: all 0.2s;
+    color: #003EE7;
+}
+
+.ms_btn_gray_black {
+    background-color: #F5F5F5;
+    color: #000;
+    border: 2px solid #F5F5F5;
+    outline: 2px solid #F5F5F5;
+}
+
+.ms_btn_gray_black:hover {
+    border: 2px solid #000;
+    transition: all 0.2s;
+    color: #000;
+}
+
+/* body */
+
 header .ms_header_top img {
- max-width: 80px;
+    max-width: 80px;
 }
 
 main {
@@ -21,23 +96,14 @@ main {
     height: 550px;
 }
 
-.ms_btn_red {
-    background-color: #CE3C10;
-}
-
-.ms_btn_gray {
-    background-color: #D9DADC;
-    color: #003EE7;
-}
-
-.ms_btn_gray_black {
-    background-color: #F5F5F5;
-}
-
 .ms_jumbotron_btm img.ms_active {
     outline: solid 2px #0070D1;
-    outline-offset: 5px;
-    inline
+    outline-offset: 5px;    
+}
+
+.ms_jumbotron_btm .col:hover {
+    position: relative;
+    top: -25px;
 }
 
 .text_img_container {
@@ -50,7 +116,20 @@ main {
 
 .ms_card {
     padding-bottom: 50px;
-    
+    position: relative;
+}
+
+.ms_overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ms_card:hover .ms_overlay {
+    display: none;
 }
 
 .ms_card:hover {
