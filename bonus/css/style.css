@@ -82,6 +82,27 @@ header .ms_header_top img {
     border-radius: 0%;
 }
 
+li.dropdown:active .ms_dropdown_toggle {
+    transform: rotate(180deg);
+}
+
+
+.ms_dropdown_toggle {
+    width: 10px;
+    transition: all 0.2s;
+}
+
+.ms_btm-link span::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #0070D1;
+    display: inline-block;
+    margin: 0 8px 3px 0 ;
+}
+
+
 main {
     margin-top: 108px;
 }
