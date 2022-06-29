@@ -77,6 +77,11 @@ header .ms_header_top img {
     max-width: 80px;
 }
 
+.ms_dropdown_menu {
+    border: none;
+    border-radius: 0%;
+}
+
 main {
     margin-top: 108px;
 }
@@ -97,8 +102,8 @@ main {
 }
 
 .ms_jumbotron_btm img.ms_active {
-    outline: solid 2px #0070D1;
-    outline-offset: 5px;    
+    outline: solid 3px #0070D1;
+    outline-offset: 2px;    
 }
 
 .ms_jumbotron_btm .col:hover {
