@@ -1,0 +1,192 @@
+/* button */
+
+.ms_btn {
+    display: inline-block;
+    padding: 0.35rem 0.4rem;
+    text-decoration: none;
+}
+
+.ms_btn_dark {
+    background-color: #373636;
+    color: #fff;
+    border: 2px solid #373636;
+    outline: 2px solid #373636;
+}
+
+.ms_btn_dark:hover {
+    border: 2px solid #fff;
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.ms_btn_red {
+    background-color: #CE3C10;
+    color: #fff;
+    border: 2px solid #CE3C10;
+    outline: 2px solid #CE3C10;
+}
+
+.ms_btn_red:hover {
+    border: 2px solid rgba(0, 0, 0, 1);
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.ms_btn_blue {
+    background-color: #0070D1;
+    color: #fff;
+    border: 2px solid #0070D1;
+    outline: 2px solid #0070D1;
+}
+
+.ms_btn_blue:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
+    transition: all 0.2s;
+    color: #fff;
+}
+
+.ms_btn_gray {
+    background-color: #D9DADC;
+    color: #003EE7;
+    border: 2px solid #D9DADC;
+    outline: 2px solid #D9DADC;
+}
+
+.ms_btn_gray:hover {
+    border: 2px solid #BEBCBB;
+    transition: all 0.2s;
+    color: #003EE7;
+}
+
+.ms_btn_gray_black {
+    background-color: #F5F5F5;
+    color: #000;
+    border: 2px solid #F5F5F5;
+    outline: 2px solid #F5F5F5;
+}
+
+.ms_btn_gray_black:hover {
+    border: 2px solid #000;
+    transition: all 0.2s;
+    color: #000;
+}
+
+/* body */
+
+header .ms_header_top img {
+    max-width: 80px;
+}
+
+.ms_dropdown_menu {
+    border: none;
+    border-radius: 0%;
+}
+
+main {
+    margin-top: 108px;
+}
+
+#jumbotron {
+    margin-bottom: 120px;
+}
+
+.ms_jumbotron_top {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.ms_jumbotron_top, 
+.ms_new_releases_top {
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+
+.ms_jumbotron_btm img.ms_active {
+    outline: solid 3px #0070D1;
+    outline-offset: 2px;    
+}
+
+.ms_jumbotron_btm .col:hover {
+    position: relative;
+    top: -25px;
+}
+
+.text_img_container {
+    margin-top: 100px;
+}
+
+.sub-title {
+    color: #727272;
+}
+
+.playstation-5-btm .text {
+    min-height: 48px;
+}
+
+.ms_card {
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.ms_card:first-child {
+    border-bottom: #0070D1 solid 2px;
+}
+
+.ms_overlay {
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.ms_card:hover .ms_overlay {
+    display: none;
+}
+
+.ms_card:hover {
+    border-bottom: #0070D1 solid 2px;
+}
+
+#new-releases {
+    background-color: #1F1F1F;
+}
+
+.ms_new_releases_top {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#playstation-plus {
+    background-color: #BEBCBB;
+}
+
+#playstation-now {
+    background-color: #161C3B;
+}
+
+.ms_footer_btm {
+    background-color: #00439C;
+}
+
+.ms_footer_btm .sie-logo {
+    max-width: 150px;
+}
+
+
+@media screen and (max-width: 578px) {
+    
+    .playstation-plus-img, 
+    .playstation-now-img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    #playstation-5 .text {
+        display: none;
+    }
+
+}
