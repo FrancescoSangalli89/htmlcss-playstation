@@ -53,7 +53,7 @@
 }
 
 .ms_btn_gray:hover {
-    border: 2px solid rgba(255, 255, 255, 1);
+    border: 2px solid #BEBCBB;
     transition: all 0.2s;
     color: #003EE7;
 }
@@ -114,9 +114,17 @@ main {
     color: #727272;
 }
 
+.playstation-5-btm .text {
+    min-height: 48px;
+}
+
 .ms_card {
     padding-bottom: 50px;
     position: relative;
+}
+
+.ms_card:first-child {
+    border-bottom: #0070D1 solid 2px;
 }
 
 .ms_overlay {
